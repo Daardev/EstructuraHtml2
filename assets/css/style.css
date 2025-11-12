@@ -27,7 +27,7 @@ header{
     display: flex;
     flex-direction: column;
     background: linear-gradient(to top, var(--background-color-principal), rgba(0, 0, 0, 0.2)),
-              url("../img/14350825_5473791.jpg");
+              url("../../assets/img/14350825_5473791.jpg");
     background-position: center;
     background-size: cover;
     height: 600px;
