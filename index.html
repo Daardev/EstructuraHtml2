@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Astro: sitios rápidos y modernos</title>
+    <meta
+      name="description"
+      content="Introducción breve a Astro, su arquitectura de islas, componentes y casos de uso."
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/assets/img/astro-logo-light-gradient.png" alt="Logo tipo de astro">
+      <h1>Construye sitios ultra rápidos con <strong>Astro</strong></h1>
+      <p>
+        Astro es un framework orientado a contenido que prioriza el rendimiento
+        mediante renderizado estático por defecto y
+        <em>Islands Architecture</em>.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <figure>
+          <img
+            src="./assets/img/Astro.png"
+            alt="Logo/ilustración representativa de Astro"
+          />
+          <figcaption>
+            Astro apuesta por enviar menos JavaScript al navegador.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>¿Por qué Astro?</h2>
+        <article>
+          <h3>Rendimiento primero</h3>
+          <p>
+            Astro entrega HTML estático y carga JavaScript solo cuando es
+            necesario. Resultado: mejores métricas como LCP, TTI y CLS.
+          </p>
+        </article>
+        <article>
+          <h3>Arquitectura de islas</h3>
+          <p>
+            Las “islas” son componentes interactivos aislados que hidratan de
+            forma parcial. No toda la página necesita JS.
+          </p>
+        </article>
+        <article>
+          <h3>Integraciones y compatibilidad</h3>
+          <p>
+            Funciona con React, Vue, Svelte, Solid, Lit y más. Soporta
+            Markdown/MDX, colecciones de contenido y adaptadores para múltiples
+            hosts.
+          </p>
+        </article>
+      </section>
+
+      <aside>
+        <h4>Cuándo usar <strong>Astro</strong></h4>
+        <ul>
+          <li>
+            Webs de marketing, blogs, documentación y e-commerce con foco SEO.
+          </li>
+          <li>Proyectos donde el contenido es mayor que la interactividad.</li>
+          <li>Necesitas tiempos de carga y puntuaciones Lighthouse altos.</li>
+        </ul>
+      </aside>
+
+      <section>
+        <h2>Inicio rápido</h2>
+        <p>Paso básico de configuración local (ejemplo):</p>
+        <pre><code>npm create astro@latest
+cd mi-sitio-astro
+npm install
+npm run dev</code></pre>
+        <p>
+          Crea páginas en <code>src/pages/</code> y componentes en
+          <code>src/components/</code>. <br />Publica fácilmente en servicios como
+          Vercel, Netlify o Cloudflare.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <small
+        >© 2025. Página informativa sobre Astro. Hecha como ejercicio semántico
+        HTML.</small
+      >
+    </footer>
+  </body>
+</html>
