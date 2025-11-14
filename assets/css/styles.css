@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 :root{
+    --color-sence:  lightblue;
     --background-color-principal: #13073f;
     --background-color-secundario: #3726A6;
     --color-secundario: #E15EF2;
@@ -15,10 +16,13 @@
 body{
     max-width: 100vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--background-color-principal);
+    background-color: var(--color-sence);
     color: var(--text-color-principal);
     display: flex;
     flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6{
+    color: red;
 }
 
 header{
@@ -60,21 +64,21 @@ main > *{
     align-items: center;
 }
 main section:nth-child(1){
-    order: 2;
-    width: 50%;
-    padding: 50px 0px;
+    order: 1;
+    width: 100%;
+    padding: 20px 0px;
 }
 main section:nth-child(1) > figure img{
-    width: auto;
-    height: 700px;
+    width: 400px;
+    height: 300px;
+    margin: auto;
 }
 main section:nth-child(2){
     order: 1;
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 main h2{
-    color: var(--text-color-secundario);
-    filter: drop-shadow(0 0 20px var(--text-color-secundario));
     text-transform: uppercase;
     font-size: 4rem;
     padding: 20px 0px;
@@ -96,8 +100,6 @@ main aside{
     padding: 80px 0px;
 }
 main aside h4{
-    color: var(--text-color-secundario);
-    filter: drop-shadow(0 0 20px var(--text-color-secundario));
     text-transform: uppercase;
     font-weight: 700;
     font-size: 4rem;
