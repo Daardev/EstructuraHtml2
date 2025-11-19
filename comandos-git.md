@@ -4,3 +4,5 @@ git init	Inicializa un repositorio en la carpeta actual	git init
 git add	Agrega cambios al área de preparación (staging)	git add . (agrega todos los archivos)
 git commit	Registra los cambios con un mensaje descriptivo	git commit -m "Primer commit"
 git status	Muestra el estado del repositorio	git status
+
+https://github.com/Daardev/EstructuraHtml2/blob/main/comandos-git.md
