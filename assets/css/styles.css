@@ -3,7 +3,6 @@
   --background-bg-purple: #30003d;
   --background-tarjeta: rgba(238, 209, 255, 0.26);
   --text-primary: rgb(255, 255, 255);
-  --text-secundary:
 }
 
 body {
@@ -60,7 +59,20 @@ pre {
 pre code {
   font-size: 1rem;
 }
-
+/*Estilos para el botón*/
+.boton{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  padding: 10px 14px;
+  background-color: var(--background-bg-purple) 
+  !important;
+  box-shadow: 0px 0px 10px #110016;
+  border: none;
+}
+.boton:hover{
+  background-color: var(--background-bg-gray) !important;
+}
 /*-------Vista tablet--------*/
 @media (min-width: 576px) and (max-width: 992px){
   .navbar-brand {
